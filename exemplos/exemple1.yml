@@ -1,0 +1,9 @@
+---
+- name: extra variable demo
+  hosts: localhost  
+  vars:
+    fruit: "banana"
+  tasks:
+    - name: debug message
+      ansible.builtin.debug:        
+        msg: "our fruit is {{ fruit }}"
