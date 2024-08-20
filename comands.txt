@@ -1,0 +1,1 @@
+debug5.yml = ansible-playbook -i inventory debug5.yml -vv
