@@ -3,3 +3,5 @@ debug5.yml = ansible-playbook -i inventory debug5.yml -vv
 ansible-playbook -i inventory exemplos/exemple1.yml
 
 exemplos = ansible-playbook -i execution multi-line.yml
+
+hostname = ansible-playbook -i statements hostname.yml  ansible-playbook -i statements hostname2.yml
